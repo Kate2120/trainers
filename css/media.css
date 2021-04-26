@@ -1,0 +1,161 @@
+@media only screen and (max-width: 1024px) {
+    .container.top .btn {
+        margin: auto;
+    }
+    .container.top .logo {
+        margin-left: 20px;
+    }
+    .container.top form {
+        margin-right: 20px;
+    }
+    .container.menu nav {
+        margin: auto;
+    }
+    .container.menu .social.btn {
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container.menu nav a {
+        font-size: 20px;
+    }
+    .banner img {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container.menu nav a {
+        font-size: 18px;
+    }
+    header .container .logo {
+        width: 180px;
+        margin: 0 10px 10px;
+    }
+    .container.top form {
+        width: 140px;
+        height: 30px;
+    }
+    .container.top form input {
+        height: 30px;
+        font: 13px/30px 'Metropolis';
+        padding-left: 8px;
+    }
+
+    .container.top button i {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .container.top .btn {
+        margin: auto;
+    }
+    .container.top .btn a {
+        width: 100px;
+        height: 30px;
+        font: 8px/30px 'Metropolis';
+    }
+    .container.top .btn a i {
+        font-size: 13px;
+    }
+    .container.menu nav {
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    footer form {
+        display: inline-block;
+    }
+    footer input {
+
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+
+    }
+    footer form button {
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+}
+@media only screen and (max-width: 414px) {
+    header .container.top .menu_mobile {
+        display: block;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    header .container.top .menu_mobile i {
+        color: white;
+        font-size: 25px;
+
+    }
+    .container.top form {
+        width: 150px;
+        margin-left: 10px;
+        margin-bottom: 3px;
+
+    }
+    .container.top .btn {
+        width: 180px;
+        margin: 0;
+    }
+    .container.top .btn a {
+
+        display: inline-block;
+        text-align: center;
+        border-radius: 3px;
+        color: white;
+        font-size: 0;
+        text-decoration: none;
+
+    }
+    .container.top .btn a:nth-child(1), .container.top .btn a:nth-child(2), .container.top .btn a:nth-child(3) {
+        background-color: transparent;
+    }
+    .container.top .btn a i {
+        font-size: 19px;
+        color: white;
+
+    }
+
+    .container.menu nav a {
+        display: none;
+    }
+    footer {
+        padding-top: 53px;
+
+    }
+    footer p {
+        font: 13px/13px 'Metropolis';
+        margin-bottom: 23px;
+    }
+    footer input {
+        width: 273px;
+        height: 29px;
+        font: 12px/12px 'Metropolis';
+    }
+    footer form button {
+        width: 217px;
+        height: 30px;
+        font: 14px/14px 'Metropolis';
+    }
+}
+@media only screen and (max-width: 375px) {
+    .container.top .btn {
+        width: 160px;
+    }
+    .container.top .btn a i {
+        font-size: 17px;
+
+    }
+}
+@media only screen and (max-width: 360px) {
+    .container.top .btn {
+        width: 130px;
+    }
+    .container.top .btn a i {
+        font-size: 15px;
+
+    }
+
+
+}
